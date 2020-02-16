@@ -15,6 +15,7 @@ body {
   margin: 0 auto;
   max-width: 480px;
   background: url("../bg/dw_bg.jpg");
+  background: rgb(204, 154, 220);
   background-size: cover;
   overflow: hidden;
   color: white;
@@ -33,13 +34,18 @@ a {
   color: inherit; }
 
 .container {
+  z-index: 1000;
   flex-wrap: wrap;
   margin: 0 auto;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgb(204, 154, 220, 0.2);
   height: 100%;
   overflow: hidden; }
   .container > div {
     width: 100%; }
+
+.grid-container{
+  margin-top: -300px;
+}
 
 .heading {
   justify-content: space-around;
